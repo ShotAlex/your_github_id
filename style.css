@@ -3,6 +3,39 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  color: gray;
+}
+
 body {
   text-align: center;
+  font-family: 'Roboto Slab', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: repeat(3,1fr);
+}
+
+h1 {
+  font-size: 2rem;
+  align-self: end;
+}
+
+.login {
+  margin-top: 2rem;
+}
+
+#btn-send-login,
+#input-login {
+  padding: 4px;
+}
+
+.author {
+  align-self: end;
+  padding-bottom: 20px;
 }
